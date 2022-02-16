@@ -1,0 +1,23 @@
+td {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.actionBtn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action {
+    width: 50px;
+    padding: 0 5px;
+    color: royalblue;
+}
+
+.action:hover {
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,88 @@
+.addTask {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #d7c6d9;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+
+.firstLine {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstLine input {
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 28px;
+}
+
+.firstLine label, .secondLine label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* .firstLine input:required {
+    border-bottom: 3px solid rgb(148, 86, 86);
+} */
+
+.firstLine input:focus {
+    transition: 0.2s ease-in;
+    border-bottom: 3px solid green;
+}
+
+
+select {
+    margin-left: 15px;
+    margin-right: 70px;
+    height: 40px;
+    width: 150px;
+    padding-left: 13px;
+    font-size: 20px;
+}
+
+.secondLine {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondLine input {
+    height: 40px;
+    margin-left: 15px;
+    padding-left: 13px;
+    font-size: 15px;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 60px;
+}
+
+.todoBtn {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+}
+
+.todoBtn:hover {
+    background-color: white;
+    color: royalblue;
+    transition: 0.1s ease-in-out;
+}

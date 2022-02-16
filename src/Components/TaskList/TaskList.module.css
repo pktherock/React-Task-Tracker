@@ -1,0 +1,52 @@
+.taskTable {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.button {
+    height: 45px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #d7c6d9;
+    outline: none;
+    border: none;
+}
+
+.button:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    height: 45px;
+    width: 200px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #d7c6d9;
+    color: rgb(78, 61, 65);
+}
+
+.todosTable {
+    background-color: #efefef;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    height: 30px;
+    background-color: green;
+    color: whitesmoke;
+}
